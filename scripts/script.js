@@ -41,6 +41,7 @@ console.log("Paid Events:", paidEvents);
 
 // Examples to test in console:
 const musician = new JazzMusician("Louis Armstrong", "Trumpet");
+//Note that "Louis Armstrong" represents the musician NAME, and "Trumpet" represents musician INSTRUMENT
 console.log("Jazz Musician:", musician);
 
 // Task 4: Extend the JazzMusician class for Vocalists
@@ -48,6 +49,7 @@ console.log("Jazz Musician:", musician);
 
 // Examples to test in console:
 const vocalist = new Vocalist("Ella Fitzgerald", "Scat");
+//Note that "Ella Fitzgerald" represents the musician NAME, and "Scat" represents musician STYLE
 console.log("Jazz Vocalist:", vocalist);
 
 
@@ -63,9 +65,10 @@ console.log("Jazz Vocalist:", vocalist);
 
 // Examples to test in console:
 const band = JazzBand("The Jazz Messengers", "Hard Bop");
+//Note that "The Jazz Messengers" represents the musician NAME, and "Hard Bop" represents musician GENRE
 console.log("Jazz Band:", band);
 
-// Task 6 : Implement a class with default parameters for Jazz Instruments
+// Task 6 : Implement a class with default parameters for Jazz Instruments.
 
 
 // Examples to test in console:
