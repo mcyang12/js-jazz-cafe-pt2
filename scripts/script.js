@@ -69,6 +69,7 @@ const band = JazzBand("The Jazz Messengers", "Hard Bop");
 console.log("Jazz Band:", band);
 
 // Task 6 : Implement a class with default parameters for Jazz Instruments.
+// The default TYPE should be Saxophone, and the default PLAYER should be John Coltrane.
 
 
 // Examples to test in console:
