@@ -51,7 +51,7 @@ console.log("Paid Events:", paidEvents);
 
 // Task 3: Define a class for Jazz Musicians
 class JazzMusician{
-    constructor(name, instrument){
+    constructor(name = "Louis Armstrong", instrument = "Trumpet"){
         this.name = name;
         this.instrument = instrument;
     }
